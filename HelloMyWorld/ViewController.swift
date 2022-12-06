@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var greetingBN: UIButton!
+    @IBOutlet var greetingButton: UIButton!
+    @IBOutlet var greetingLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
        
     }
 
-
+    @IBAction func greetingButtonDidTapped() {
+    }
 }
+    
+
+
 
